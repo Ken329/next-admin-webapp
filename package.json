@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
+    "lodash": "^4.17.21",
     "next": "^14.2.4",
+    "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.52.1",
@@ -18,11 +20,14 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "babel-plugin-lodash": "^3.3.4",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
+    "lodash-webpack-plugin": "^0.11.6",
     "typescript": "^5"
   }
 }
